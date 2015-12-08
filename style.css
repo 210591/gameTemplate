@@ -63,9 +63,8 @@ body {
 }
 
 #goRight1 {
-    right: 40px;
-    top: 40%;
-    display: block;
+    margin-left: 400px;
+    bottom: -5%;
 }
 
 #goRight-Straight1 {
