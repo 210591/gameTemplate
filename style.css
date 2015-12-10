@@ -63,14 +63,14 @@ body {
 }
 
 #goRight1 {
-    right: 400px;
-    margin-left: 400px;
+    right: 450px;
+    margin-left: 200px;
     bottom: 0%;
 }
 
 #goRight-Straight1 {
-    bottom: 25%;
-    left: 45%;
+    bottom: 50%;
+    left: 42.5%;
     display: none;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 #goRight-Straight2 {
-    bottom: 25%;
+    bottom: 5%;
     left: 45%;
     display: none;
 }
@@ -147,4 +147,10 @@ display: inline;
 	padding: 10px 10px;
     margin: 20px;
     font-size:0.6em;
+}
+
+#getRekt {
+    margin-left: 600px;
+    margin-bottom: 200px;
+    bottom: 0px;
 }
