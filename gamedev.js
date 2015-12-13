@@ -75,6 +75,30 @@ $( document ).ready(function() {
 		$("#goLeft2").show();
 		$("#goRight1").hide();
 		$("#getRekt").show();
+		var audio = $('<audio />', {
+      autoPlay : 'autoplay',
+      controls : 'controls'
+    });
+     
+    // Call our addSource function, and pass in the audio element
+    // and the path(s) to your audio.
+    addSource(audio, 'sound/XSCREAM2.wav');
+    addSource(audio, 'audioFile.mp3');
+   
+    // When some event is fired...
+    $('a').click(function() {
+     // Add the audio + source elements to the page.
+      audio.appendTo('body');  
+      // Fadeout the anchor tag to keep the user from clicking it again.
+      $(this).fadeOut('slow');
+      return false;
+    });
+     
+   // Adds a source element, and appends it to the audio element, represented 
+   // by elem.
+    function addSource(elem, path) {
+      $('<source />').attr('src', path).appendTo(elem);
+    }
 	});
 
 	$("#goLeft-Straight1").click(function() {
