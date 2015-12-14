@@ -68,6 +68,18 @@ body {
     bottom: 0%;
 }
 
+#urChica {
+	bottom: 82%;
+	margin-left: 78%;
+	background-image:"img/chica.gif";
+}
+
+#urBonnie {
+	bottom: 82%;
+	margin-left: 15%;
+	background-image:"img/bonbon.gif";
+}
+
 #goRight-Straight1 {
     bottom: 50%;
     left: 42.5%;
@@ -153,4 +165,9 @@ display: inline;
     margin-left: 600px;
     margin-bottom: 200px;
     bottom: 0px;
+}
+
+#reStart {
+	margin-left: 425px;
+	bottom: 100px;
 }
